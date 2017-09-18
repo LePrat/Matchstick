@@ -5,14 +5,14 @@
 ## Login   <kentin.pratelli@epitech.eu>
 ## 
 ## Started on  Tue May  2 13:21:14 2017 root
-## Last update Fri Jul 14 01:00:07 2017 root
+## Last update Mon Sep 18 15:16:25 2017 root
 ##
 
 CC      =       gcc
 
 RM	=	rm -f
 
-CFLAGS  +=	-Wextra -Wall -I ./include/
+CFLAGS  +=	-W -Wextra -Wall -I ./include/
 
 NAME    =       matchstick
 
@@ -31,7 +31,7 @@ OBJS	=	$(SRCS:.c=.o)
 all:		$(NAME)
 
 $(NAME):	$(OBJS)
-		$(CC) $(CFLAGS) -o $(NAME) $(SRCS)
+		$(CC) -o $(NAME) $(OBJS)
 
 clean:
 		$(RM) $(OBJS)
