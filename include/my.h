@@ -1,11 +1,11 @@
 /*
-** my.h for my_sokoban in /root/Delivery/Sys_Unix/PSU_2016_my_sokoban
+** my.h for Matchstick in /root/Delivery/Sys_Unix/PSU_2016_Matchstick
 ** 
 ** Made by root
 ** Login   <kentin.pratelli@epitech.eu>
 ** 
 ** Started on  Tue May  9 16:20:25 2017 root
-** Last update Sun Jul 16 16:57:57 2017 root
+** Last update Mon Sep 18 15:20:33 2017 root
 */
 
 #ifndef MY_H_
@@ -82,4 +82,4 @@ char	**marienbad(t_info *, char **);
 void	free_info(t_info *);
 char	**info_mari(t_info *, char **, char *);
 
-#endif /*MY_H_*/
+#endif /*!MY_H_*/

@@ -1,11 +1,11 @@
 ##
-## Makefile for my_exec in /root/Delivery/CProg_Elem/CPE_2016_BSQ
+## Makefile for Matchstick in /root/Delivery/CProg_Elem/CPE_2016_Matchstick
 ## 
 ## Made by root
 ## Login   <kentin.pratelli@epitech.eu>
 ## 
 ## Started on  Tue May  2 13:21:14 2017 root
-## Last update Mon Sep 18 15:16:25 2017 root
+## Last update Mon Sep 18 15:19:46 2017 root
 ##
 
 CC      =       gcc
